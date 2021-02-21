@@ -1,12 +1,13 @@
-import React from "react";
-import propTypes from "prop-types";
+import React from 'react';
+import propTypes from 'prop-types';
+import styles from './TransactionHistory.module.css';
 
 const TransactionCard = ({ type, amount, currency }) => {
   return (
     <>
-      <th>{type}</th>
-      <th>{amount}</th>
-      <th>{currency}</th>
+      <th className={styles.type}>{type}</th>
+      <th className={styles.amount}>{amount}</th>
+      <th className={styles.currency}>{currency}</th>
     </>
   );
 };

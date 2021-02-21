@@ -1,0 +1,31 @@
+.statistics {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(82, 19, 119, 0.5);
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 70px;
+  text-align: center;
+}
+.list {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.item {
+  list-style: none;
+  padding: 15px;
+  color: white;
+}
+.label {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.percentage {
+  text-align: center;
+  font-size: 15px;
+}

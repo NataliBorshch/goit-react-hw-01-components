@@ -1,11 +1,12 @@
-import React from "react";
-import propTypes from "prop-types";
+import React from 'react';
+import propTypes from 'prop-types';
+import styles from './Statistics.module.css';
 
 const StatisticCard = ({ label, percentage }) => {
   return (
     <>
-      <span>{label}</span>
-      <span>{percentage}%</span>
+      <span className={styles.label}>{label}</span>
+      <span className={styles.percentage}>{percentage}%</span>
     </>
   );
 };
