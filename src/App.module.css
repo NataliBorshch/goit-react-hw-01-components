@@ -1,3 +1,9 @@
+body {
+  color: black;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
