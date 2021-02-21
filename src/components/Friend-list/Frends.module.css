@@ -1,0 +1,30 @@
+.list {
+  margin: 0px;
+  padding: 0px;
+}
+.item {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  margin: 5px 0px;
+  border-radius: 5px;
+
+  padding: 20px;
+  list-style: none;
+  box-shadow: 0 0 10px rgba(19, 46, 119, 0.5);
+}
+
+.state {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.avatar {
+  margin: 0px 20px;
+}
+.textName {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px;
+}
